@@ -19,7 +19,7 @@ icon_path = resource_path("./patrick_img/patrick_icon.ico")
 patrick_list = [patrick for patrick in listdir(folder_path) if (patrick.endswith(".PNG") or patrick.endswith(".png"))]
 loaded_images = [Image.open(f"{folder_path}/{patrick}") for patrick in patrick_list]
 
-default_patricks = 100
+default_patricks = 1000
 
 
 if len(sys.argv) > 1:
